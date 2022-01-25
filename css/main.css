@@ -239,7 +239,8 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url('../img/hero.jpg');
+    background: url('../img/hero.jpg') center no-repeat;
+    background-size: cover;
    }
 
    .hero-area h1 {
