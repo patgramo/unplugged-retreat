@@ -223,12 +223,23 @@ textarea {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
    }
 
    footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+   }
+
+   .social-icons p i{
+     font-size: 1.5em;
+     text-align: center;
    }
 
    .copyright {
@@ -316,7 +327,7 @@ textarea {
       align-items: center;
       flex-flow: row wrap;
     }
-    
+
     .features i {
       font-size: 3.75em;
       margin-bottom: 40px;
@@ -624,7 +635,18 @@ textarea {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
+    align-items: flex-start;
+  }
+
+  footer .social {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    flex-flow: row wrap;
+  }
+
+  footer h3 {
+    width: 100%;
   }
 
   footer .contact {
