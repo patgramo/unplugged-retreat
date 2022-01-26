@@ -109,6 +109,12 @@ textarea {
      color: #e2e3ed;
    }
 
+   h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875em;
+    font-weight: 500;
+  }
+
    h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 1.875em;
@@ -166,6 +172,7 @@ textarea {
      flex-flow: row wrap;
      margin: 0;
     }
+
     header figure {
       width: 60%;
       display: flex;
@@ -195,6 +202,8 @@ textarea {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    padding: 0;
+    margin: 0;
    }
 
    header nav ul li {
@@ -266,7 +275,6 @@ textarea {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 500; 
     line-height: 1.2;
-    width: 95%;
    }
 
    aside {
@@ -546,15 +554,10 @@ textarea {
 
   header figure {
     width: 30%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-flow: row wrap;
   }
 
   header nav {
-    width: 30%;
-    justify-content: space-around;
+    width: 20%;
   }
 
   header nav ul {
@@ -615,6 +618,7 @@ textarea {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -752,7 +756,7 @@ textarea {
 
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
   
   /* Aside */
@@ -798,9 +802,10 @@ textarea {
   About Page
   ========================================================================== */
 
-  .mission h2,
+  .mission h1,
   .contact-section .content-wrapper h2 {
       width: 95%;
+      font-size: 3em;
   }
 
   .map figure {
@@ -817,6 +822,7 @@ textarea {
   
   .faq h1 {
     width: 100%;
+    font-size: 3em;
   }
 
   .faq h3,
