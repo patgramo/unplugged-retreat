@@ -365,7 +365,7 @@ textarea {
     top: 0; 
     left: 0; 
    }
-   
+
    .contact-section {
     display: flex;
     justify-content: center;
@@ -655,6 +655,10 @@ textarea {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 46%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -772,6 +776,10 @@ textarea {
       width: 95%;
   }
 
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+  
   .contact-content h4 {
     font-size: 1.875em;
   }
